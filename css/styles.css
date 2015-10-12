@@ -3,6 +3,11 @@ h1 {
     color: rgba(0,0,0,.5);
 }
     
+h1 { color: hotpink;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
 img {
     opacity: .5;
      width: 50%;
