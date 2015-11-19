@@ -11,15 +11,9 @@ img {
     opacity: .5;
      width: 50%;
 }
-/******IMAGE*******/
 
-img {
-image-size:100x200px;
-border-radius: 300%
-}
-/* Layout*/
 
-/*HEADER*/
+/******HEADER*******/
 .container {
 width: 85%;;
     margin: auto;
@@ -32,25 +26,7 @@ background:rgb(238, 226, 206 );
     border-radius: 10px;
     overflow: hidden;
 }
-
-/*BODY*/
-
-
-/*Typography*/
-
-h1 {
-    color: rgb(53, 130, 159);
-    font-size: 70px;
- font-family: satisfy;
-    letter-spacing: .05em;
-    padding-left: 100px;
-}
-
-
-footer {
-font-family: 'Overlock', cursive; 
-}
-/* Navigation*/
+/******NAVIGATION*******/
 nav {
 
     padding:1px;
@@ -82,7 +58,31 @@ li {
    display: inline;
     
 }
-/*FOOTER*/
+/******IMAGE*******/
+
+
+/******LAYOUT*******/
+
+
+/******BODY*******/
+
+
+/******TYPOGRAPHY*******/
+
+h1 {
+    color: rgb(53, 130, 159);
+    font-size: 70px;
+ font-family: satisfy;
+    letter-spacing: .05em;
+    padding-left: 100px;
+}
+
+
+footer {
+font-family: 'Overlock', cursive; 
+}
+
+/******FOOTER*******/
 
 #footer {
 position: absolute;
