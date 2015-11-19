@@ -4,7 +4,8 @@ title {
 font-family: 'Overlock', cursive; 
 }
 body {
-    background: url(../img/background.png);
+    
+    width: 100%;
 }
 
 img {
@@ -14,18 +15,17 @@ img {
 
 
 /******HEADER*******/
-.container {
-width: 85%;;
-    margin: auto;
+#wrapper {
+background: url(../img/background.JPG);
+background-size: 100%;
+    background-repeat: no-repeat;
+position: absolute;
+min-width:100%;
+
+min-height:100%;
+z-index:1;
 }
-.topbox {
-background:rgb(238, 226, 206 );
-    padding-bottom:20px;
-    margin-top: 20px;
-    height: 50px;
-    border-radius: 10px;
-    overflow: hidden;
-}
+
 /******NAVIGATION*******/
 nav {
 
