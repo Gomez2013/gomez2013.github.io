@@ -4,7 +4,6 @@ title {
 font-family: 'Overlock', cursive; 
 }
 body {
-position: relative;
     width: 100%;
 }
 html, body {
@@ -84,6 +83,7 @@ li {
 .container {
     width: 80%;
     margin: auto;
+    
 }
 
 /******BODY*******/
