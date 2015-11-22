@@ -55,7 +55,7 @@ a:link, a{
     text-decoration: none;
     display: inline-block;
     padding:0 1px;
-    display: none;
+    
 }
 a:hover{
 color: rgb(51, 110, 151);
