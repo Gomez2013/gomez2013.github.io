@@ -6,6 +6,7 @@ title {
 
 html, body {
     max-width: 100%;
+    min-width: 100%;
     overflow-x: hidden;
 }
 
@@ -23,12 +24,12 @@ html, body {
 
 
 nav {
-    left:50px;
+    top:0;
+    right:20px;
     padding:4px;
     vertical-align: middle;
     position: fixed;
     z-index: 1;
-    overflow: hidden;
    }
 
 header {
@@ -72,6 +73,8 @@ nav ul li {
 .homejpg {
     top: 0px;
     bottom: 0px;
+    min-height: 100%;
+    min-width: 100%;
 }
 /******LAYOUT*******/
 .container {
@@ -90,6 +93,10 @@ nav ul li {
     .homeh1 {
     text-align: center;
     }
+}
+
+article {
+    position: relative;
 }
 /******LINKS*******/
 
@@ -116,19 +123,21 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 }
+
+
 .designer {
     font-family: 'Philosopher', sans-serif;
     font-size: 3em;
     letter-spacing: 10px;
-   text-align: right;
+    text-align: right;
     top: -200px;
+    position: absolute;
     z-index: 1;
 }
 
 .homeh1 {
     color: rgb(150, 124,92);
-    top:400px;
-    left: 60px;
+   
 }
 .resumeh1 {
     
