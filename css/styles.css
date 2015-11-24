@@ -59,6 +59,7 @@ color: rgb(220, 163, 115);
 }
 nav ul li {
    display: inline;
+   float: right;
 }
 /******IMAGE*******/
 
