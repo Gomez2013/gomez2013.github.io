@@ -15,17 +15,18 @@ html, body {
 /******HEADER*******/
 
 .toprectangle {
-    background: rgba(255,255,255,.7);
+    background: rgba(163, 163, 163,.4);
     width: 100%;
     height: 80px;
     position: fixed;
     z-index: 1;
+    position: relative;
 }
 
 
 nav {
     top:0;
-    right:20px;
+    right:50px;
     padding:4px;
     vertical-align: middle;
     position: fixed;
@@ -63,47 +64,36 @@ nav ul li {
 }
 /******IMAGE*******/
 
-.leaf {
-    opacity: .9;
-    image: no-repeat;
-    top: -50px;
-    
-}
 
-.homejpg {
-    top: 0px;
-    bottom: 0px;
-    min-height: 100%;
-    min-width: 100%;
-}
 /******LAYOUT*******/
 .container {
     width: 85%;
     margin: auto;
-    background: yellow;
-    position: relative;
+    background: rgba(163, 163, 163,.4);
+    top: 0;
+    
     }
 
 
 /******BODY*******/
-@media screen and (max-width:1024px){
-    .designer {
-    text-align: right;
-    }
-    .homeh1 {
-    text-align: center;
-    }
-}
 
-article {
-    position: relative;
+.home-bg {
+    background: url(../img/lines.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.resume-bg {
+    background: url("../img/resumeimg.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
 }
 /******LINKS*******/
 
 .info {
-    max-height: 40px;
-    max-width: 40px;
-    padding: 50px;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 60px;
 }
 /******TYPOGRAPHY*******/
 
@@ -130,14 +120,17 @@ h1 {
     font-size: 3em;
     letter-spacing: 10px;
     text-align: right;
-    top: -200px;
-    position: absolute;
+    border: 0;
     z-index: 1;
+    font-weight: bold;
+    top: 90px;
 }
 
 .homeh1 {
     color: rgb(150, 124,92);
-   
+    position: absolute;
+    top: 560px;
+    left: 200px;
 }
 .resumeh1 {
     
@@ -149,11 +142,12 @@ font-family: 'Overlock', cursive;
 /******FOOTER*******/
 
 #footer {
-position:absolute;
+    position:absolute;
     bottom:0;
     width: 100%;
     height: 40px;
     left: 80%;
+    font-weight: bold;
 }
 .copyright {
     max-height:15px;
