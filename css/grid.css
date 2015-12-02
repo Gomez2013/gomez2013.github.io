@@ -73,9 +73,13 @@ img {
 	}
 	.grid-7 {
 		width: 57.5%;
+        float: right;
+        display: block;
+        margin: 0 20px 10px 0;
 	}
 	.grid-8 {
 		width: 66%;
+     
 	}
 	.grid-9 {
 		width: 74.5%;

@@ -73,6 +73,22 @@ nav ul li {
     
     }
 
+.contact {
+    margin: auto;
+    border: 2px; 
+    text-align: center;
+}
+.education{
+    width:360px;
+    float: left;
+    padding: 5px;
+}
+.experience {
+    width:640px;
+    float: left;
+    padding: 10px;
+    top: -200px;
+}
 
 /******BODY*******/
 
@@ -99,9 +115,10 @@ nav ul li {
 /******LINKS*******/
 
 .info {
-    max-height: 30px;
+    max-height: 50px;
     max-width: 30px;
     padding: 1px;
+    display: inline!important;
 }
 /******TYPOGRAPHY*******/
 
@@ -115,18 +132,16 @@ h1 {
      z-index: 1;
     }
 
-.titles {
-    background:rgba(53,53,53,.8);
-    border-radius: 0 20px 20px 0;  
+.titles {  
     font-family: 'Overlock'; 
     color: rgb(183,151,102);
     font-size: 2em;
     font-weight: bold;
-    padding-left: 8px;
+  
 }
 
 li {
-    font-family: 
+list-style-type:square;
 }
 .designer {
     font-family: 'Philosopher', sans-serif;
