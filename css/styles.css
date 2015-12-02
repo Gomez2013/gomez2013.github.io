@@ -68,6 +68,7 @@ nav ul li {
 /******LAYOUT*******/
 .container {
     width: 85%;
+    height: auto;
     margin: auto;
     background: rgba(163, 163, 163,.4);
     
@@ -79,16 +80,69 @@ nav ul li {
     text-align: center;
 }
 .education{
-    width:360px;
+    width:380px;
     float: left;
-    padding: 5px;
+    padding-left: 20px;
+    }
+.job {
+    padding-left: 400px;
 }
-.experience {
-    width:640px;
-    float: left;
-    padding: 10px;
-    top: -200px;
+
+.ps, .ai, .id, .word, .excel, .pp, .lr, .br {
+    border-bottom-style: double;
+    border-left-style: double;
+    padding: 0 0 0 3px;
 }
+/*************SOFTWARES HOVER **********/
+.ps:hover {
+    background: red;
+    color: beige;
+    width: 90%;
+    display: block;
+}
+.ai:hover {
+    background: red;
+    color: beige;
+    width: 90%;
+    display: block;
+}
+.id:hover {
+    background: red;
+    color: beige;
+    width: 70%;
+    display: block;
+}
+.br:hover {
+    background: red;
+    color: beige;
+    width: 85%;
+    display: block;
+}
+.lr:hover {
+    background: red;
+    color: beige;
+    width: 66%;
+    display: block;
+}
+.word:hover {
+    background: red;
+    color: beige;
+    width: 80%;
+    display: block;
+}
+.pp:hover {
+    background: red;
+    color: beige;
+    width: 80%;
+    display: block;
+}
+.excel:hover {
+    background: red;
+    color: beige;
+    width: 50%;
+    display: block;
+}
+
 
 /******BODY*******/
 
@@ -138,6 +192,11 @@ h1 {
     font-size: 2em;
     font-weight: bold;
   
+}
+
+p {
+line-height: 1.5em;
+   
 }
 
 li {
