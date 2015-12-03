@@ -9,8 +9,10 @@ html, body {
     min-width: 100%;
     overflow-x: hidden;
 }
-
-
+/******GALLERY********/
+.gallery {
+height: 400px;
+}
 
 /******HEADER*******/
 
