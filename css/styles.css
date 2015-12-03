@@ -80,19 +80,14 @@ nav ul li {
     float: left;
     padding-left: 20px;
     }
+.software {
+    float: left;
+    top: 300px;
+}
 .job {
     padding-left: 400px;
 }
 
-
-/*
-.ps, .ai, .id, .word, .excel, .pp, .lr, .br {
-    border-bottom-style: double;
-    border-left-style: double;
-    border-color: rgb(174, 225, 239);
-    padding: 0 0 0 3px;
-}
-*/
 
 div .hr {
     width: 90%;
@@ -104,7 +99,7 @@ div .hr {
    
 }
 
-/******BODY******
+/*****BODY******/
 
 .home-bg {
     background: url(../img/lines.jpg);
@@ -126,7 +121,7 @@ div .hr {
     background: rgb(227,208,180);
 }
 
-/******LINKS*******/
+/******LINKS******/
 
 .email {
     width: 30px;
