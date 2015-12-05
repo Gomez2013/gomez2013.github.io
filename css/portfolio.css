@@ -1,9 +1,20 @@
+#page {
+height: 1200px;
+}
+
+li {
+text-decoration: none;
+
+}
+
 .lb-album{
+  
 	width: 900px;
 	margin: 0 auto;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
 .lb-album li{
+    top: 120px;
 	float: left;
 	margin: 5px;
 	position: relative;
@@ -197,6 +208,10 @@ x:-o-prefocus, .lb-overlay img {
     height: 100%;
 }
 
+.portfolio {
+    top: 80px;
+    left: 100px;
+}
 .thumbs {
     height: 150px;
     width: 150px;

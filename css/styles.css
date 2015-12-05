@@ -76,10 +76,19 @@ nav ul li {
 .container {
     width: 85%;
     margin: auto;
-   background: rgba(216,210,183, .1);
     
     }
 
+.contact {
+    padding-top:60px;
+    border-bottom: 1px rgb(98, 165, 180);
+    border-bottom: double;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+    color: rgb(101, 167, 187);
+    font-size:28px;
+    font-weight: lighter;
+}
 .education{
     width:360px;
     float: left;
@@ -96,6 +105,7 @@ nav ul li {
 }
 
 
+/*
 div .hr {
     width: 90%;
     height: .2em;
@@ -105,6 +115,7 @@ div .hr {
     color: rgb(98, 165, 180);
    
 }
+*/
 
 /*****BODY******/
 
