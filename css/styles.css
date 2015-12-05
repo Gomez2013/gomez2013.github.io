@@ -57,15 +57,17 @@ a:link, a{
     text-align: right;
     
 }
-a:hover{
-color: rgb(51, 110, 151);
+a:hover {
+color: rgb(98, 165, 180);
   }
 a:focus {
-color: rgb(220, 163, 115);
+color: rgb(228,177, 127);
 }
 a:active {
-color: rgb(220, 163, 115);
+color: rgb(98, 165, 180);
+    
 }
+
 nav ul li {
    display: inline;
 }
