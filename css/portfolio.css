@@ -196,3 +196,8 @@ animation: fadeInScale 1.2s ease-in-out;
 x:-o-prefocus, .lb-overlay img {
     height: 100%;
 }
+
+.thumbs {
+    height: 150px;
+    width: 150px;
+}
