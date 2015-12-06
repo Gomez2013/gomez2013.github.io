@@ -305,7 +305,7 @@ font-family: 'Overlock', cursive;
     max-height: 100%;
     bottom:0;
     float: right;
-   padding-left: 50px;
+    padding-left:2050px;
     font-weight: bold;
 }
 .copyright {
@@ -364,8 +364,18 @@ a:link, a {
     padding-top: 80px;
         }
 .job {
-padding-left: 0;
+ padding-left: 0;
 }
+.portfolio {
+    padding-left: 0;
+    left: 80px;
+    font-size: 50px;
+}
+.lb-album {
+    width: 400px;
+   padding-top: 50px;
+    position: inherit;
+    }
 #footer {
     bottom: 0;
   padding-left: 250px;
