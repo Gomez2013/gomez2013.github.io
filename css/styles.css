@@ -304,9 +304,8 @@ font-family: 'Overlock', cursive;
 #footer {
     max-height: 100%;
     bottom:0;
-    width: 100%;
-    height: 30px;
-    left: 75%;
+    float: right;
+   padding-left: 50px;
     font-weight: bold;
 }
 .copyright {
@@ -319,7 +318,7 @@ font-family: 'Overlock', cursive;
 /*****MEDIA QUERIES*****/
 
 /*Mobile*/
-@media screen and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:480px) {
     
  h1 {
     padding-top: 15px;
@@ -367,10 +366,23 @@ a:link, a {
 .job {
 padding-left: 0;
 }
-footer {
+#footer {
     bottom: 0;
+  padding-left: 250px;
+    margin: auto;
     }
 }
 /*Tablet*/
 
+@media screen and(min-width:490px) and (max-width:1024px) {
 
+a:link, a {
+   padding-top: 100px;
+    }
+nav {
+    padding-top: 100px;
+    }
+body {
+    background: red;
+    }
+}
