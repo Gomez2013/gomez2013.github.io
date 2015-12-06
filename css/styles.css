@@ -14,6 +14,10 @@ body {
    background: url("../img/foggy_birds.png");
   
 }
+
+
+
+
 /******GALLERY********/
 .gallery {
 height: 400px;
@@ -77,12 +81,14 @@ nav ul li {
 /******LAYOUT*******/
 .container {
     width: 85%;
+    height: auto;
     margin: auto;
+    max-width: 100%;
     
     }
 
 .contact {
-    padding-top:60px;
+    padding-top:140px;
     border-bottom: 1px rgb(98, 165, 180);
     border-bottom: double;
     font-family: 'Montserrat', sans-serif;
@@ -93,7 +99,7 @@ nav ul li {
 }
 .education{
     width:360px;
-    float: left;
+    float: left; 
     padding-left: 20px;
     }
 /*
@@ -195,6 +201,7 @@ h1 {
     position: fixed;
     top: -30px;
      z-index: 1;
+    max-width: 100%;
     }
 
 .titles {  
@@ -295,10 +302,10 @@ font-family: 'Overlock', cursive;
 /******FOOTER*******/
 
 #footer {
-    position:absolute;
+    max-height: 100%;
     bottom:0;
     width: 100%;
-    height: 40px;
+    height: 30px;
     left: 75%;
     font-weight: bold;
 }
@@ -308,4 +315,62 @@ font-family: 'Overlock', cursive;
     left: 20px;
     
 }
+
+/*****MEDIA QUERIES*****/
+
+/*Mobile*/
+@media screen and (max-width:480px) {
+    
+ h1 {
+    padding-top: 15px;
+    font-size: 2em;
+     padding-left: 95px;
+    }
+a:link, a {
+    font-size: 15px;
+    display: inline;
+    padding-top: 60px;
+    }
+    nav {
+    padding-top: 30px;
+    }
+    
+.email, .phone, .fb, .codepen, .github {
+     text-align: center;
+     width: 25px;
+     height: 25px;
+     font-size: 15px;
+    }
+.email {
+    left: 65px;
+    }
+    .phone {
+    left: 110px;
+    }
+    .number {
+    left: 140px;
+         width: 125px;
+    }
+.fb {
+    left: 265px;
+    }
+.codepen {
+    left: 310px;
+    }
+.github {
+    left: 360px;
+    }
+    
+.contact {
+    padding-top: 80px;
+        }
+.job {
+padding-left: 0;
+}
+footer {
+    bottom: 0;
+    }
+}
+/*Tablet*/
+
 

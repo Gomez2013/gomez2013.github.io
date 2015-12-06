@@ -1,13 +1,6 @@
 #page {
 height: 1200px;
 }
-.content:after{
-    content: ".";
-    display: none;
-    clear: both;
-    line-height: 0;
-    height: 0;
-}
 
 .lb-album{
   
@@ -16,7 +9,7 @@ height: 1200px;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
 .lb-album li{
-    top: 120px;
+    top: 250px;
 	float: left;
 	margin: 5px;
 	position: relative;
@@ -212,7 +205,7 @@ x:-o-prefocus, .lb-overlay img {
 
 .portfolio {
     top: 80px;
-    left: 100px;
+    left: 300px;
 }
 .thumbs {
     height: 150px;
