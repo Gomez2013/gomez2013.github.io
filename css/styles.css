@@ -26,9 +26,9 @@ height: 400px;
 /******HEADER*******/
 
 .toprectangle {
-   background: rgba(98, 165, 180, .2);
+   background: rgb(98, 165, 180);
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: fixed;
     z-index: 1;
    
@@ -62,13 +62,13 @@ a:link, a{
     
 }
 a:hover {
-color: rgb(98, 165, 180);
+color: rgb(243, 243, 243);
   }
 a:focus {
 color: rgb(228,177, 127);
 }
 a:active {
-color: rgb(98, 165, 180);
+color: rgb(243, 243, 243);
     
 }
 
@@ -129,7 +129,7 @@ div .hr {
 
 .home-bg {
     background: url(../img/lines.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
@@ -193,7 +193,7 @@ div .hr {
 
 /******TYPOGRAPHY*******/
 
-h1 {
+.resumeh1 {
     color: rgb(53, 130, 159);
     font-size: 4em;
     font-family: 'Philosopher', sans-serif;
@@ -204,6 +204,15 @@ h1 {
     max-width: 100%;
     }
 
+.portfolio {
+    color: rgb(53, 130, 159);
+    font-size: 4em;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: .05em;
+    top: 100px;
+    z-index: 1;
+    max-width: 100%;
+}
 .titles {  
     font-family: 'Montserrat', sans-serif;
     color: rgb(101, 167, 187);
@@ -244,15 +253,7 @@ color:rgb(98, 165, 180);
     top: 90px;
 }
 
-.homeh1 {
-    color: rgb(150, 124,92);
-    position: absolute;
-    top: 560px;
-    left: 200px;
-}
-.resumeh1 {
-    
-}
+
 footer {
 font-family: 'Overlock', cursive; 
 }
