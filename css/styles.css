@@ -66,7 +66,7 @@ color: rgb(243, 243, 243);
 transition: .5s ease-in;
   }
 a:focus {
-color: rgb(228,177, 127);
+color: rgb(218,170, 127);
 }
 a:active {
 color: rgb(243, 243, 243);
@@ -89,13 +89,13 @@ nav ul li {
     }
 
 .contact {
-    padding-top:-10px;
     border-bottom: 1px rgb(98, 165, 180);
     border-bottom: double;
     font-family: 'Montserrat', sans-serif;
     padding-left: 50px;
     color: rgb(101, 167, 187);
     font-size:28px;
+   padding-bottom: 10px;
     font-weight: lighter;
 }
 .education{
@@ -156,39 +156,39 @@ div .hr {
 .email {
     width: 30px;
     right: 475px;
-    top: 160px;
+    top: 210px;
     position: absolute;
 }
 
 .phone {
-     top: 160px;
+     top:  210px;
     width: 30px;
     right: 425px;
     position: absolute;
 }
 .number{
-    top: 148px;  
+    top:  200px;  
     right:310px;
     position: absolute;
 }
 .fb {
     width: 30px;
     right: 260px;
-    top: 160px;
+    top:  210px;
     position: absolute;
 }
 
 .codepen {
     width: 30px;
     right: 210px;
-    top: 160px;
+    top:  210px;
     position: absolute;
 }
 
 .github {
     width: 30px;
     right: 160px;
-    top: 160px;
+    top:  210px;
     position: absolute;
 }
 
