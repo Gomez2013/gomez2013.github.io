@@ -56,7 +56,7 @@ a:link, a{
 }
 a:hover {
 color: rgb(243, 243, 243);
-transition: .5s ease-in;
+transition: color .8s;
   }
 a:focus {
 color: rgb(218,170, 127);
@@ -112,23 +112,11 @@ nav ul li {
     background: url(../img/lines.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     max-width: 100%;
     max-height: 100%;
 }
 
-.about-bg {
-    background: rgb(227,208,180);
-}
-.resume-bg {
-    background: url("../img/resumeimg.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: fixed;
-}
-
-.portfolio-bg {
-    background: rgb(227,208,180);
-}
 
 /******LINKS******/
 
@@ -316,7 +304,9 @@ footer {
     body {
         background: red;
     }
-    
+.portfolio {
+   padding-top: 50px;     
+    }
 }
 
 /*Tablet*/
@@ -326,7 +316,55 @@ footer {
 body {
     background: green;
     }
+.resumeh1 {
+        font-size: 3.5em;
+    }
+.contact {
+    top:600px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    } 
+
+.email, .phone, .fb, .codepen, .github {
+     text-align: center;
+     height: 25px;
+     position: absolute;
+     font-size: 15px;
+     width: 25px;
+    }
+.email {
+    top: 230px;
+    left: 80px;
+    }
+.phone {
+    top: 230px;
+    left: 120px;
+    }
+.number {
+    top: 215px;
+    left: 150px;
+    width: 118px;
+    }
+.fb {
+    top: 230px;
+    left: 280px;
+    }
+.codepen {
+    top: 230px;
+    left: 320px;
+    }
+.github {
+    top: 230px;
+    left: 360px;
+    }
+.job {
+    padding-left: 0;
+}
+.icons {
+    width: 80px;       
+    }
 .portfolio {
+    padding-top: 50px;
    padding-left: 120px;
     }
 
@@ -334,22 +372,36 @@ body {
     width: 600px;
     height: 200%;
     }
+#footer {
+    font-size: 11px;
+    bottom: 0;
+    padding-left: 800px;
+    margin: auto;
+    max-width: 100%;
+    }
 }
 
 /*Mobile*/
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:270px) and (max-width:489px) {
     body {
         background: blue;
     }
  .resumeh1 {
-    font-size: 2em;
+    font-size: 2.1em;
     padding-top:50px;
-    padding-left: 95px;
+    padding-left: 20px;
+    }
+ .contact {
+     margin-left: 40px;
+     font-size: 20px; 
+     width: 250px;
+     padding-left: 30px;
     }
 a:link, nav {
     font-size: 15px;
     display: inline;
-    left: -10px;
+    left: -20px;
+    width: 400px;
     padding-top: 20px;
     padding-right: 1px;
     }
@@ -361,26 +413,27 @@ a:link, nav {
      text-align: center;
      height: 25px;
      font-size: 15px;
-     width: 25px;
+     width: 24px;
     }
 .email {
-    left: 65px;
+    left: 60px;
     }
-    .phone {
-    left: 110px;
+.phone {
+    left: 95px;
     }
-    .number {
-    left: 140px;
-         width: 125px;
+.number {
+    font-size: 15px;
+    left: 120px;
+    width: 125px;
     }
 .fb {
-    left: 265px;
+    left: 235px;
     }
 .codepen {
-    left: 310px;
+    left: 265px;
     }
 .github {
-    left: 360px;
+    left: 305px;
     }
 .icons {
     display: inline-block;
@@ -392,6 +445,7 @@ a:link, nav {
 }
     
 .portfolio {
+    padding-top: 50px;
     left: 60px;
     font-size: 50px;
     padding-left: 60px;
@@ -402,6 +456,7 @@ a:link, nav {
     width: 400px;
     }
 #footer {
+    font-size: 11px;
     bottom: 0;
     padding-left: 250px;
     margin: auto;
