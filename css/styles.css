@@ -322,21 +322,29 @@ font-family: 'Overlock', cursive;
 
 /*****MEDIA QUERIES*****/
 
-/*Mobile*/
-@media screen and (min-width:320px) and (max-width:480px) {
+/*****Desktop******/
+
+@media screen and (min-device-width:1200px) and (max-device-width:1600px) and (-webkit-min-device-pixel-ratio:2){
     
- h1 {
-    padding-top: 15px;
+    
+}
+
+/*Mobile*/
+@media screen and (min-width:320px) and (max-width:640px) {
+    
+ .resumeh1 {
+    padding-top:50px;
     font-size: 2em;
-     padding-left: 95px;
+    padding-left: 95px;
     }
 a:link, a {
     font-size: 15px;
     display: inline;
-    padding-top: 60px;
+    padding-top: 20px;
+    padding-right: 3px;
     }
     nav {
-    padding-top: 30px;
+    padding-top: 10px;
     }
     
 .email, .phone, .fb, .codepen, .github {
@@ -365,21 +373,18 @@ a:link, a {
     left: 360px;
     }
     
-.contact {
-    padding-top: 80px;
-        }
+
 .job {
  padding-left: 0;
 }
 .portfolio {
-    padding-left: 0;
+    padding-left: 80px;
     left: 80px;
     font-size: 50px;
 }
 .lb-album {
     width: 400px;
-   padding-top: 50px;
-    position: inherit;
+   padding-top: 20px;
     }
 #footer {
     bottom: 0;
@@ -389,7 +394,7 @@ a:link, a {
 }
 /*Tablet*/
 
-@media screen and(min-width:490px) and (max-width:1024px) {
+@media only screen and(min-width:490px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio:1) {
 
 a:link, a {
    padding-top: 100px;
