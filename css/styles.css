@@ -301,9 +301,7 @@ footer {
 /*****Desktop******/
 
 @media screen and (min-device-width:1200px) and (max-width:1600px){
-    body {
-        background: red;
-    }
+   
 .portfolio {
    padding-top: 50px;     
     }
@@ -314,7 +312,7 @@ footer {
 @media screen and (min-width:490px) and (max-width:1024px) {
 
 body {
-    background: green;
+    background: url(../img/light_grey.png);
     }
 .resumeh1 {
         font-size: 3.5em;
@@ -383,9 +381,7 @@ body {
 
 /*Mobile*/
 @media screen and (min-width:270px) and (max-width:489px) {
-    body {
-        background: blue;
-    }
+  
  .resumeh1 {
     font-size: 2.1em;
     padding-top:50px;
