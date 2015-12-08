@@ -206,7 +206,11 @@ div .hr {
     z-index: 1;
     max-width: 100%;
     }
-
+.bio {
+    top:1090px;
+    max-width: 100%;
+    position: absolute;
+}
 .portfolio {
     color: rgb(53, 130, 159);
     font-size: 4em;
@@ -372,11 +376,15 @@ a:link, a {
 .github {
     left: 360px;
     }
-    
+.icons {
+    display: inline-block;
+    width: 80px;       
+    }
 
 .job {
  padding-left: 0;
 }
+    
 .portfolio {
     padding-left: 80px;
     left: 80px;
@@ -388,7 +396,7 @@ a:link, a {
     }
 #footer {
     bottom: 0;
-  padding-left: 250px;
+    padding-left: 250px;
     margin: auto;
     }
 }

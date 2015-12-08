@@ -8,7 +8,6 @@ background: rgb(101, 167, 187);
 }
 .color-3 {
 background:rgba(98, 165, 180, .2);
-
 }
 .color-4{
   background: rgb(228,177, 127);
@@ -16,11 +15,14 @@ background:rgba(98, 165, 180, .2);
 .color-5 {
  background: black;
 }
+.color-6 {
+background: rgb(243, 243, 243);;
+}
 
 /*****Pattern********/
 
 .pattern-1 {
-background: url("../img/foggy_birds.png");
+    background: url("../img/foggy_birds.png");
     border: 1px solid black;
 }
 
@@ -30,11 +32,8 @@ background: url("../img/foggy_birds.png");
 .color-3,
 .color-4,
 .color-5,
+.color-6,
 .pattern-1,
-.pattern-2,
-.pattern-3,
-.pattern-4,
-.pattern-5,
 .icon-1,
 .icon-2,
 .icon-3,
