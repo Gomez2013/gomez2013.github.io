@@ -326,7 +326,7 @@ body {
 
 .email, .phone, .fb, .codepen, .github {
      text-align: center;
-     height: 25px;
+     height: 30px;
      position: absolute;
      font-size: 15px;
      width: 25px;
@@ -412,7 +412,7 @@ a:link, nav {
     
 .email, .phone, .fb, .codepen, .github {
      text-align: center;
-     height: 25px;
+     height: 30px;
      font-size: 15px;
      width: 24px;
     }
@@ -453,7 +453,7 @@ a:link, nav {
    
 }
     p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
 .lb-album {
