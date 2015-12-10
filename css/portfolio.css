@@ -208,8 +208,29 @@ x:-o-prefocus, .lb-overlay img {
     width: 150px;
 }
 
+
+/***TABLET***/
+@media screen and (min-width:480px) and (max-width:1024px){
+.lb-overlay:target img {
+    width: 600px;
+    height: 500px;
+   margin-left: -80px;
+}
+
+.lb-overlay div h3 {
+   margin-left: -170px;     
+    }
+
+.lb-next{
+    margin-left:-60px;
+    
+    }
+.lb-prev{  
+    margin-left: -100px;
+    }
+}
 /***MOBILE***/
-@media screen and (min-width:270px) and (max-width:489px){
+@media screen and (min-width:270px) and (max-width:479px){
 .lb-overlay:target img {
     width: 400px;
     height: 500px;
