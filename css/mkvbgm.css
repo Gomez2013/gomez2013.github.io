@@ -103,7 +103,7 @@ nav ul li {
 
 .email {
     right: 475px;
-    top: 90px;
+    top: 50px;
     position: absolute;
     width: 30px;
   left: 50px;
@@ -112,20 +112,20 @@ nav ul li {
 .phone {
     right: 425px;
     position: absolute;
-    top:  90px;
+    top:  50px;
     width: 30px;
   left: 100px;
     
 }
 .number{
-    top:  80px;  
+    top:  40px;  
     right:310px;
     position: absolute;
   left: 130px;
 }
 .fb {
     right: 260px;
-    top:  90px;
+    top:  50px;
     position: absolute;
     width: 30px;
   left: 250px;
@@ -133,7 +133,7 @@ nav ul li {
 
 .codepen {
     right: 210px;
-    top:  90px;
+    top:  50px;
     position: absolute;
     width: 30px;
   left: 300px;
@@ -141,7 +141,7 @@ nav ul li {
 
 .github {
     right: 160px;
-    top:  90px;
+    top:  50px;
     position: absolute;
     width: 30px;
   left: 350px;
