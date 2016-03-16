@@ -308,6 +308,13 @@ footer {
 .portfolio {
    padding-top: 50px;     
     }
+    .animline{
+  top: 100px;
+    left: 700px;
+    width: 1300px;
+    height: 100px;
+  position: relative;
+}
 }
 
 /*Tablet*/
@@ -318,6 +325,11 @@ footer {
 body {
     background: url(../img/light_grey.png);
     }
+ .animline{
+    top: 200px;
+    width: 300px;
+    height: 100px;
+}
 .resumeh1 {
         font-size: 3.5em;
     }
