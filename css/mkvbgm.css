@@ -213,6 +213,12 @@ nav ul li {
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
+h4 {
+    color: darkgray;
+    font-weight: 200;
+    text-align: right;
+}
 p {
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
@@ -314,7 +320,7 @@ footer {
   }
   .brick.small {
     width: 400px;
-    height: 400px;
+    height: 410px;
   }
  .brick.xsmall {
     width: 400px;
@@ -372,7 +378,7 @@ body {
     }
 .contact {
     top:600px;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-bottom: 21px;
     } 
 
@@ -384,44 +390,44 @@ body {
      width: 25px;
     }
 .email {
-    top: 110px;
+    top: 100px;
     left: 80px;
     }
 .phone {
-    top: 110px;
+    top: 100px;
     left: 120px;
     }
 .number {
-    top: 100px;
+    top: 90px;
     left: 150px;
     width: 130px;
     }
 .fb {
-    top: 110px;
+    top: 100px;
     left: 280px;
     }
 .codepen {
-    top: 110px;
+    top: 100px;
     left: 320px;
     }
 .github {
-    top: 110px;
+    top: 100px;
     left: 360px;
     }
  .brick.small {
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 470px;
   }
  .brick.xsmall {
     width: 200px;
-    height: 200px;
+    height: 270px;
   }
 .brick.medium {
-    width: 620px;
-    height: 600px;
+    width: 530px;
+    height: 650px;
   }
   .brick.large {
-    width: 750px;
+    width: 450px;
     height: 150px;
   }
 .job {
@@ -477,22 +483,26 @@ a:link, nav {
     nav {
     padding-top: 10px;
     }
+    .gridly {
+    width: 100%;
+    }
     .brick.small {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 550px;
   }
  .brick.xsmall {
     width: 200px;
-    height: 200px;
+    height: 370;
   }
 .brick.medium {
     width: 620px;
     height: 600px;
   }
   .brick.large {
-    width: 750px;
+    width: 400px;
     height: 150px;
   }
+   
 .email, .phone, .fb, .codepen, .github {
      text-align: center;
      height: 30px;

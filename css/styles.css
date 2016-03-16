@@ -120,6 +120,7 @@ nav ul li {
 
 /******LINKS******/
 
+/*
 .email {
     right: 475px;
     top: 210px;
@@ -161,6 +162,7 @@ nav ul li {
     position: absolute;
     width: 30px;
 }
+*/
 
 
 
@@ -310,6 +312,7 @@ footer {
 
 /*Tablet*/
 
+
 @media screen and (min-width:481px) and (max-width:1024px) {
 
 body {
@@ -320,7 +323,6 @@ body {
     }
 .contact {
     top:600px;
-    padding-left: 0px;
     padding-bottom: 40px;
     } 
 
@@ -332,28 +334,28 @@ body {
      width: 25px;
     }
 .email {
-    top: 230px;
+    top: 110px;
     left: 80px;
     }
 .phone {
-    top: 230px;
+    top: 110px;
     left: 120px;
     }
 .number {
-    top: 215px;
+    top: 100px;
     left: 150px;
     width: 130px;
     }
 .fb {
-    top: 230px;
+    top: 110px;
     left: 280px;
     }
 .codepen {
-    top: 230px;
+    top: 110px;
     left: 320px;
     }
 .github {
-    top: 230px;
+    top: 110px;
     left: 360px;
     }
 .job {
@@ -382,7 +384,7 @@ p {
     margin: auto;
     max-width: 100%;
     }
-}
+} 
 
 /*Mobile*/
 @media screen and (min-width:270px) and (max-width:481px) {
@@ -393,7 +395,7 @@ p {
     padding-left: 20px;
     }
  .contact {
-     margin-left: 40px;
+     margin-left: 75px;
      font-size: 20px; 
      width: 250px;
      padding-left: 30px;
