@@ -103,7 +103,7 @@ nav ul li {
 
 .email {
     right: 475px;
-    top: 50px;
+    top: 90px;
     position: absolute;
     width: 30px;
   left: 50px;
@@ -112,20 +112,20 @@ nav ul li {
 .phone {
     right: 425px;
     position: absolute;
-    top:  50px;
+    top:  90px;
     width: 30px;
   left: 100px;
     
 }
 .number{
-    top:  40px;  
+    top:  80px;  
     right:310px;
     position: absolute;
   left: 130px;
 }
 .fb {
     right: 260px;
-    top:  50px;
+    top:  90px;
     position: absolute;
     width: 30px;
   left: 250px;
@@ -133,7 +133,7 @@ nav ul li {
 
 .codepen {
     right: 210px;
-    top:  50px;
+    top:  90px;
     position: absolute;
     width: 30px;
   left: 300px;
@@ -141,7 +141,7 @@ nav ul li {
 
 .github {
     right: 160px;
-    top:  50px;
+    top:  90px;
     position: absolute;
     width: 30px;
   left: 350px;
@@ -212,12 +212,6 @@ nav ul li {
     }
 h3 {
     font-family: 'Montserrat', sans-serif;
-}
-
-h4 {
-    color: darkgray;
-    font-weight: 200;
-    text-align: right;
 }
 p {
     line-height: 1.5em;
@@ -378,7 +372,7 @@ body {
     }
 .contact {
     top:600px;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-bottom: 21px;
     } 
 
@@ -390,37 +384,37 @@ body {
      width: 25px;
     }
 .email {
-    top: 100px;
+    top: 110px;
     left: 80px;
     }
 .phone {
-    top: 100px;
+    top: 110px;
     left: 120px;
     }
 .number {
-    top: 90px;
+    top: 100px;
     left: 150px;
     width: 130px;
     }
 .fb {
-    top: 100px;
+    top: 110px;
     left: 280px;
     }
 .codepen {
-    top: 100px;
+    top: 110px;
     left: 320px;
     }
 .github {
-    top: 100px;
+    top: 110px;
     left: 360px;
     }
  .brick.small {
     width: 300px;
-    height: 470px;
+    height: 500px;
   }
  .brick.xsmall {
     width: 200px;
-    height: 270px;
+    height: 280px;
   }
 .brick.medium {
     width: 530px;
@@ -483,26 +477,22 @@ a:link, nav {
     nav {
     padding-top: 10px;
     }
-    .gridly {
-    width: 100%;
-    }
     .brick.small {
-    width: 200px;
-    height: 550px;
+    width: 400px;
+    height: 400px;
   }
  .brick.xsmall {
     width: 200px;
-    height: 370;
+    height: 200px;
   }
 .brick.medium {
     width: 620px;
     height: 600px;
   }
   .brick.large {
-    width: 400px;
+    width: 750px;
     height: 150px;
   }
-   
 .email, .phone, .fb, .codepen, .github {
      text-align: center;
      height: 30px;
